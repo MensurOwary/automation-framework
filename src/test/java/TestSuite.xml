@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="Automation Framework">
+    
+    <test name="Testing the Search Ability in Chrome">
+        <parameter name="browser" value="chrome" />
+        <classes>
+            <class name="com.azercell.framework.pages.TestSearchInGoogle">                
+            </class>
+        </classes>
+    </test>
+    
+    <test name="Testing the Search Ability in PJS">
+        <parameter name="browser" value="phantom" />
+        <classes>
+            <class name="com.azercell.framework.pages.TestSearchInGoogle">                
+            </class>
+        </classes>
+    </test>
+    
+    
+</suite>
